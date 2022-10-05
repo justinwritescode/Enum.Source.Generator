@@ -25,7 +25,7 @@ using System;
 namespace {NameSpace};
 
 [AttributeUsage(AttributeTargets.Enum)]
-public sealed class {AttributeName}Attribute : System.Attribute
+internal sealed class {AttributeName}Attribute : System.Attribute
 {{
 }}";
 }

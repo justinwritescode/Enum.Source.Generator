@@ -1,12 +1,12 @@
 <Project>
     <PropertyGroup>
-        <LangVersion>10.0</LangVersion>
+        <!-- <LangVersion>10.0</LangVersion>
         <AnalysisLevel>latest</AnalysisLevel>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
         <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
         <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-        <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+        <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors> -->
 
         <!--
       CA2007: Consider calling ConfigureAwait on the awaited task
@@ -15,15 +15,15 @@
       CA1054: Change the type of parameter of the method to allow a Uri to be passed as a 'System.Uri' object
       CA1055: Change the return type of method from 'string' to 'System.Uri'
     -->
-        <NoWarn>$(NoWarn);SCS0004;CA1716;CA2227;CA1002;MA0025;MA0051;MA0002;CS7022;CS8803;</NoWarn>
+        <!-- <NoWarn>$(NoWarn);SCS0004;CA1716;CA2227;CA1002;MA0025;MA0051;MA0002;CS7022;CS8803;</NoWarn>
         <NoError>$(NoError);SCS0004;CA1716;CA2227;CA1002;MA0025;MA0051;MA0002;CS7022;CS8803;</NoError>
         <ReportAnalyzer>true</ReportAnalyzer>
         <AnalysisMode>Default</AnalysisMode>
-        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers> -->
 
-        <Company>Mohsen Rajabi</Company>
+        <!-- <Company>Mohsen Rajabi</Company>
         <Copyright>MohsenRajabi@2022</Copyright>
-        <Authors>Mohsen Rajabi</Authors>
+        <Authors>Mohsen Rajabi</Authors> -->
 
 
         <Description>
@@ -36,10 +36,10 @@
             enumfast enum-fast csharp-sourcegenerator
         </PackageTags>
 
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <!-- <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageProjectUrl>https://github.com/EngRajabi/Enum.Source.Generator</PackageProjectUrl>
         <RepositoryUrl>https://github.com/EngRajabi/Enum.Source.Generator</RepositoryUrl>
-        <RepositoryType>git</RepositoryType>
+        <RepositoryType>git</RepositoryType> -->
 
         <!--<PackageIcon>Aspcore-Dapper-Extensions.png</PackageIcon>-->
 
@@ -55,7 +55,7 @@
         <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0">
+        <!-- <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
@@ -63,9 +63,9 @@
         <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-        </PackageReference>
+        </PackageReference> -->
 
-        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+        <!-- <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" /> -->
     </ItemGroup>
 
     <ItemGroup>
